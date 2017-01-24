@@ -20,31 +20,78 @@
  animation: blink 1s infinite;
 }
 
-
 .arrow.down{
 	transform: rotate(180deg);
 }
 
-.arrow.first{
+.arrow.one{
 	animation-delay: -0.96s;
 }
 
-.arrow.second{
+.arrow.two{
+	animation-delay: -0.96s;
+}
+
+.arrow.three{
+	animation-delay: -0.96s;
+}
+
+.arrow.four{
+	animation-delay: -0.96s;
+}
+
+.arrow.five{
+	animation-delay: -0.96s;
+}
+
+.arrow.six{
 	animation-delay: -0.8s;
 }
 
-.arrow.third{
-	animation-delay: -0.64s;
+.arrow.seven{
+  animation-delay: -0.8s;
 }
 
-.arrow.forth{
-	animation-delay: -0.48s;
+.arrow.eight{
+  animation-delay: -0.8s;
 }
 
-.arrow.fifth{
-	animation-delay: -0.32s;
+.arrow.nine{
+  animation-delay: -0.64s;
 }
 
-.arrow.sixth{
-	animation-delay: -0.16s;
+.arrow.ten{
+  animation-delay: -0.48s;
+}
+
+.arrow.eleven{
+  animation-delay: -0.32s;
+}
+
+.arrow.twelve{
+  animation-delay: -0.32s;
+}
+
+.arrow.thirteen{
+  animation-delay: -0.32s;
+}
+
+.arrow.fourteen{
+  animation-delay: -0.16s;
+}
+
+.arrow.fifteen{
+  animation-delay: -0.16s;
+}
+
+.arrow.sixteen{
+  animation-delay: -0.16s;
+}
+
+.arrow.seventeen{
+  animation-delay: -0.16s;
+}
+
+.arrow.eighteen{
+  animation-delay: -0.16s;
 }

@@ -6,14 +6,15 @@
 }
 
 .top{
-	height: 33.333%;
+	height: 30%;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
 .bottom{
-	height: 66.666%;
+	height: 60%;
 	width: 100%;
 	background-color: white;
 	display: flex;
@@ -22,12 +23,23 @@
 	align-items: center;
 }
 
+.footer{
+	height: 10%;
+	width: 100%;
+	background-color: #228CDB;
+}
 
-
-.row{
+/*.column{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}*/
+
+.row{
+	display: flex;
+	/*flex-direction: column;*/
+	align-items: center;
+	justify-content: center;
 }
 
 .main-title{
