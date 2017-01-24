@@ -1,10 +1,10 @@
 .arrow{
  width: 0;
  height: 0;
- margin: 0 -6px;
- border-left: 12px solid transparent;
- border-right: 12px solid transparent;
- border-bottom: 12px solid #F4F4ED;
+ margin: 0 -9px;
+ border-left: 18px solid transparent;
+ border-right: 18px solid transparent;
+ border-bottom: 18px solid #F4F4ED;
  animation: blink 1s infinite;
 }
 
@@ -36,7 +36,7 @@
 	animation-delay: -0.96s;
 }
 
-.page-one{
+.page{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -45,6 +45,11 @@
 
 .row{
 	display: flex;
+}
+
+.main-title{
+	padding-bottom: 200px;
+	color: white;
 }
 
 body{
