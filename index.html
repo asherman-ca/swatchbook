@@ -6,24 +6,45 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <meta name="viewport" content="width = 1050, user-scalable = no" />
-<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
-<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="./extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="./extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="./lib/turn.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 </head>
 <body>
 
 <div class="flipbook-viewport">
 	<div class="container">
 		<div class="flipbook">
-			<div style="background-color:#8ACDEA"></div>
-			<div style="background-color:#746D75"></div>
+			<div style="background-color:#8ACDEA" class="page-one">
+				<div class="animated">
+					<div class="row">
+						<div class="arrow"></div>
+	          <div class="arrow"></div>
+					</div>
+				</div>
+			</div>
+
+			<div style="background-color:#746D75">
+				<h1>test2</h1>
+			</div>
+
 			<div style="background-color:#8C4843"></div>
+
 			<div style="background-color:#9E643C"></div>
+
 			<div style="background-color:#EDE6F2"></div>
+
 			<div style="background-color:#746D75"></div>
+
 			<div style="background-color:#D0F1BF"></div>
+
 			<div style="background-color:#40476D"></div>
+
 			<div style="background-color:#F4AC45"></div>
+
 			<div style="background-color:#2C2A4A"></div>
+
 		</div>
 	</div>
 </div>
@@ -63,8 +84,8 @@ function loadApp() {
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['../../lib/turn.js'],
-	nope: ['../../lib/turn.html4.min.js'],
+	yep: ['./lib/turn.js'],
+	nope: ['./lib/turn.html4.min.js'],
 	both: ['css/basic.css'],
 	complete: loadApp
 });

@@ -1,4 +1,23 @@
-/* Basic sample */
+ /*Basic sample */
+
+.page-one{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row{
+	display: flex;
+}
+
+.arrow{
+ width: 0;
+ height: 0;
+ margin: 0;
+ border-left: 12px solid transparent;
+ border-right: 12px solid transparent;
+ border-bottom: 12px solid #fd7000;
+}
 
 body{
 	overflow:hidden;
