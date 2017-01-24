@@ -7,6 +7,7 @@ This CSS demo will demonstrate around a dozen advanced styling techniques using 
 ### Functionality & MVP  
 
 - [ ] Page turning
+- [ ] Loader animation
 - [ ] Rotation
 - [ ] Modal
 - [ ] 3D Rotation
