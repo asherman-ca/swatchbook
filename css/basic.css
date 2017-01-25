@@ -10,11 +10,12 @@
 	width: 100%;
 }
 
-/*.column{
+.page{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-}*/
+}
 
 .row{
 	display: flex;
@@ -23,12 +24,31 @@
 	justify-content: center;
 }
 
-body{
+.top{
+	height: 30%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bottom{
+	height: 60%;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*body{
 	overflow:hidden;
 	background-color:#fcfcfc;
 	margin:0;
 	padding:0;
-}
+}*/
 
 .flipbook-viewport{
 	overflow:hidden;

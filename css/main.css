@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*height: 50%;*/
 	width: 100%;
 	padding-bottom: 30px;
 }
@@ -10,19 +9,29 @@
 .main-title{
 	color: white;
 	padding-top: 20px;
-	/*height: 50%;*/
 }
 
-.github, .tool {
-	display: flex;
-	justify-content: center;
+.tool {
+	width: 50%;
+  padding-right: 10px;
+  display: flex;
+	justify-content: flex-end;
 	align-items: center;
-	width: 100%;
+  text-decoration: none;
 }
 
-.github span {
+.github {
+  width: 50%;
+  padding-left: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+  text-decoration: none;
+}
+
+.tool span {
 	color: white;
-	padding-left: 5px;
+	padding-right: 10px;
   opacity: 0;
 	font-size: 12px;
   transition: opacity 1s ease-in-out;
@@ -30,9 +39,9 @@
    -webkit-transition: opacity 1s ease-in-out;
 }
 
-.tool span {
+.github span {
 	color: white;
-	padding-right: 5px;
+	padding-left: 10px;
   opacity: 0;
 	font-size: 12px;
   transition: opacity 1s ease-in-out;
@@ -41,29 +50,3 @@
 }
 
 .github:hover span, .tool:hover span { opacity: 1; }
-
-.page{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.top{
-	height: 30%;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.bottom{
-	height: 60%;
-	width: 100%;
-	background-color: white;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
