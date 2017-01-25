@@ -5,6 +5,9 @@
   margin: 0;
 }
 
+div, body {
+  display: inherit;
+}
 .footer{
 	height: 10%;
 	width: 100%;
