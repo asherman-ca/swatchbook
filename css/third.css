@@ -1,11 +1,16 @@
 /*rotation page*/
 
 .rotaters{
-  height: 100%;
+  /*height: 40%;*/
   width: 100%;
+  margin-right: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rotation h3 {
+  color: #55ACEE;
 }
 
 .rotater{
@@ -14,8 +19,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
+
+.perspective { perspective: 300px; }
 
 .rotater span{
   padding-top: 20px;
