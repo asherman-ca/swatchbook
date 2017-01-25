@@ -7,14 +7,12 @@ This CSS demo will demonstrate around a dozen advanced styling techniques using 
 ### Functionality & MVP  
 
 - [ ] Page turning
-- [ ] Loader animation
 - [ ] Rotation
 - [ ] Modal
 - [ ] 3D Rotation
 - [ ] Content before/after
 - [ ] Margin / Padding
 - [ ] Advanced Input
-- [ ] Existing site mimicry (google etc...)
 - [ ] A production Readme
 
 ### Wireframes
