@@ -100,16 +100,24 @@
 .arrow-two{
  width: 0;
  height: 0;
- margin: 0 -9px;
- border-left: 18px solid transparent;
- border-right: 18px solid transparent;
- border-bottom: 18px solid #007bb5;
+ margin: 0 -32px;
+ border-left: 64px solid transparent;
+ border-right: 64px solid transparent;
+ border-bottom: 64px solid #007bb5;
  /*filter: drop-shadow(0 0 27 #228CDB);*/
- animation: blink 1s infinite;
+ animation: spin 3s infinite;
 }
 
-.arrow-two.down{
-	transform: rotate(180deg);
+.arrow-three{
+  width: 0;
+  height: 0;
+  margin: 0 -32px;
+  border-left: 64px solid transparent;
+  border-right: 64px solid transparent;
+  border-bottom: 64px solid #007bb5;
+  /*filter: drop-shadow(0 0 27 #228CDB);*/
+  animation: spin2 3s infinite;
+  transform: rotate(180deg);
 }
 
 .arrow.one-one{
@@ -126,4 +134,48 @@
 
 .arrow.one-four{
 
+}
+
+@keyframes spin{
+  0% {
+    opacity: 0.1;
+    /*transform: rotate(90deg);*/
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(180deg);
+  }
+  75% {
+
+    transform: rotate(270deg);
+  }
+  100% {
+    opacity: 0.1;
+    /*transform: rotate(360deg);*/
+  }
+}
+
+@keyframes spin2{
+  0% {
+    opacity: 0.1;
+    transform: rotate(180deg);
+  }
+  25% {
+    transform: rotate(270deg);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+  75% {
+
+    transform: rotate(90deg);
+  }
+  100% {
+    opacity: 0.1;
+    /*transform: rotate(180deg);*/
+  }
 }
