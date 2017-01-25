@@ -49,4 +49,12 @@
    -webkit-transition: opacity 1s ease-in-out;
 }
 
+.footer p {
+  color: white;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+
+
 .github:hover span, .tool:hover span { opacity: 1; }

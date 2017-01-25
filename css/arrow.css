@@ -1,4 +1,4 @@
-@keyframes blink {
+@keyframes blink{
   0% {
     opacity: 0.1;
   }
@@ -17,6 +17,7 @@
  border-left: 18px solid transparent;
  border-right: 18px solid transparent;
  border-bottom: 18px solid #228CDB;
+ /*filter: drop-shadow(0 0 27 #228CDB);*/
  animation: blink 1s infinite;
 }
 
