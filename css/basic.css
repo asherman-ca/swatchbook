@@ -5,86 +5,9 @@
   margin: 0;
 }
 
-/*.github{
-	padding-left: 10px;
-}
-
-.tool{
-	padding-right: 10px;
-}*/
-
-.nav {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/*height: 50%;*/
-	width: 100%;
-	padding-bottom: 30px;
-}
-
-.main-title{
-	color: white;
-	padding-top: 20px;
-	/*height: 50%;*/
-}
-
-.github, .tool {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
-
-.github span {
-	padding-left: 10px;
-  opacity: 0;
-	font-size: 10px;
-  transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
-}
-
-.tool span {
-	padding-right: 10px;
-  opacity: 0;
-	font-size: 10px;
-  transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
-}
-
-.github:hover span, .tool:hover span { opacity: 0.5; }
-
-.page{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.top{
-	height: 30%;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.bottom{
-	height: 60%;
-	width: 100%;
-	background-color: white;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
 .footer{
 	height: 10%;
 	width: 100%;
-	background-color: #228CDB;
 }
 
 /*.column{
