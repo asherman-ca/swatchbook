@@ -41,7 +41,7 @@ div, body {
 .bottom{
 	height: 70%;
 	width: 100%;
-	background-color: white;
+	background-color: #f6f8fa;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

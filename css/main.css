@@ -10,7 +10,7 @@
 .main-title h1 {
   margin: 0;
   padding: 0;
-  color: white;
+  color: #f6f8fa;
   /*width: 100%;
   text-align: center;*/
 }
@@ -62,15 +62,21 @@
    -webkit-transition: opacity 1s ease-in-out;
 }
 
+.ulcontainer{
+  padding: 15px;
+  border-radius: 2px;
+  background-color: #3b5998;
+}
+
 .bottom ul {
   /*margin-left: 10%;*/
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   font-size: 30px;
-  color: #3b5998;
+  color: #f6f8fa;
   font-weight: bold;
 }
 
