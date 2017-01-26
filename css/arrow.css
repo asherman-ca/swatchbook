@@ -98,6 +98,16 @@
  transform: rotate(270deg);
  background-image: none;
  background-color: none;
+ transition: 1s;
+}
+
+.row:hover .arrow-two{
+  /*animation: none;*/
+  opacity: 0;
+}
+.row:hover .arrow-three{
+  opacity: 0;
+  /*animation: none;*/
 }
 
 .arrow-three{
@@ -113,6 +123,7 @@
   transform: rotate(90deg);
   background-image: none;
   background-color: none;
+  transition: 1s;
 }
 
 .second-row {
