@@ -45,12 +45,13 @@ input {
   cursor: pointer;
 }
 
-.fifth h1{
+.second h1{
   font-family: 'Montserrat', sans-serif;
 }
 
-.fifth span{
+.second span{
   color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .first-letter{

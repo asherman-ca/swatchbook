@@ -1,17 +1,29 @@
-.sixth h1 {
-  /*font-family: 'Roboto', sans-serif;*/
+.sixth h2 {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
 }
 
 .seventh h1 {
   font-family: 'Roboto', sans-serif;
-  color: black;
+  /*color: black;*/
 }
 
-.seventh span {
-  color: black;
+.bio-container {
+  background-color: #bb0000;
+  padding: 15px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /*height: 80%;*/
+  width: 80%;
 }
 
-.eighth h2 {
-  font-family: 'Press Start 2P', cursive;
+.bio-container p {
   color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: bold;
 }
