@@ -27,6 +27,8 @@ div, body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+  background-image: none;
+  background-color: none;
 }
 
 .top{
@@ -41,12 +43,20 @@ div, body {
 .bottom{
 	height: 70%;
 	width: 100%;
-	background-color: #f6f8fa;
+	/*background-color: #f6f8fa;*/
+  background-image: radial-gradient(circle farthest-corner at center top, #FFF 0%, #D8DFE9 100%);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+
+/*.white {
+  background: #fff;
+  background-image: radial-gradient(circle farthest-corner at center top, #FFF 0%, #D8DFE9 100%);
+  background-image: -webkit-radial-gradient(center top, circle farthest-corner, #FFF 0%, #D8DFE9 100%);
+  color: #31374F;
+}*/
 
 .flipbook-viewport{
 	overflow:hidden;

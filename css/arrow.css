@@ -96,6 +96,8 @@
  /*filter: drop-shadow(0 0 27 #228CDB);*/
  animation: spin3 3s infinite;
  transform: rotate(270deg);
+ background-image: none;
+ background-color: none;
 }
 
 .arrow-three{
@@ -109,10 +111,12 @@
   /*filter: drop-shadow(0 0 27 #228CDB);*/
   animation: spin2 3s infinite;
   transform: rotate(90deg);
+  background-image: none;
+  background-color: none;
 }
 
 .second-row {
-  margin-top: 46px;
+  margin-top: 49px;
 }
 
 @keyframes spin3{
