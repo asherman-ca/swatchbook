@@ -1,0 +1,17 @@
+/*modal*/
+
+.fifth h1{
+  font-family: 'Oleo Script', cursive;
+}
+
+.modal{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  /*display: none;*/
+}
+
+.hidden{
+  display: none;
+}

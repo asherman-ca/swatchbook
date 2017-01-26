@@ -8,6 +8,7 @@
 <meta name="viewport" content="width = 1050, user-scalable = no" />
 <script type="text/javascript" src="./extras/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="./extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="./extras/modal.js"></script>
 <script type="text/javascript" src="./lib/turn.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans|Oleo+Script|Roboto" rel="stylesheet">
@@ -19,6 +20,10 @@
 <link rel="stylesheet" type="text/css" href="./css/forth.css"/>
 <link rel="stylesheet" type="text/css" href="./css/fifth.css"/>
 <link rel="stylesheet" type="text/css" href="./css/sixth.css"/>
+
+
+<link rel="icon" type="image/x-icon" href="./pics/black-at-sign.png">
+<title>SwatchBook</title>
 
 </head>
 <body>
@@ -116,7 +121,7 @@
 					<div class="arrow-two"></div>
 					<div class="arrow-three"></div>
 				</div>
-				<div class="row second-row">
+				<div class="row third-row">
 					<div class="arrow-two"></div>
 					<div class="arrow-three"></div>
 				</div>
@@ -173,7 +178,7 @@
 				</div>
 			</div>
 
-			<div style="background-color:#9b418e" class="page forth right">
+			<div style="background-color:#9b418e" class="page fifth right">
 				<div class="top">
 				<div class="main-title"><h1>Modal</h1></div>
 					<div class="nav">
@@ -187,7 +192,11 @@
 							</a>
 					</div>
 				</div>
-			<div class="bottom">
+			<div class="bottom" onClick=toggleModal()>
+
+	      <div class="modal hidden" id="modal">
+					<h1>test</h1>
+	      </div>
 
 			</div>
 				<div style="background-color:#9b418e" class="footer">
