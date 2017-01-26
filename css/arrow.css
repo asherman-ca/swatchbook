@@ -92,6 +92,7 @@
  border-left: 48px solid transparent;
  border-right: 48px solid transparent;
  border-bottom: 48px solid #007bb5;
+ box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
  /*filter: drop-shadow(0 0 27 #228CDB);*/
  animation: spin3 3s infinite;
  transform: rotate(270deg);
@@ -104,6 +105,7 @@
   border-left: 48px solid transparent;
   border-right: 48px solid transparent;
   border-bottom: 48px solid #007bb5;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   /*filter: drop-shadow(0 0 27 #228CDB);*/
   animation: spin2 3s infinite;
   transform: rotate(90deg);
