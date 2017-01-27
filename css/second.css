@@ -40,7 +40,7 @@ input {
   justify-content: center;
   align-items: center;
   color: #757575;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -51,6 +51,10 @@ input {
 
 .second span{
   color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.second p{
   font-family: 'Montserrat', sans-serif;
 }
 
