@@ -1,1 +1,106 @@
 /*animation*/
+
+.second-row, .third-row {
+  margin-top: 49px;
+}
+
+.arrow-two{
+ width: 0;
+ height: 0;
+ margin: 0 -23.5px;
+ border-left: 48px solid transparent;
+ border-right: 48px solid transparent;
+ border-bottom: 48px solid #007bb5;
+ box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ animation: spin3 3s infinite;
+ transform: rotate(270deg);
+ background-image: none;
+ background-color: none;
+ transition: 1s;
+}
+
+.arrow-three{
+  width: 0;
+  height: 0;
+  margin: 0 -23.5px;
+  border-left: 48px solid transparent;
+  border-right: 48px solid transparent;
+  border-bottom: 48px solid #007bb5;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  animation: spin2 3s infinite;
+  transform: rotate(90deg);
+  background-image: none;
+  background-color: none;
+  transition: 1s;
+}
+
+.row:hover .arrow-two{
+  border-bottom: 48px solid #bb0000;
+}
+
+.row:hover .arrow-three{
+  border-bottom: 48px solid #bb0000;
+}
+
+.second-row:hover .arrow-two{
+  border-bottom: 48px solid #623ea3;
+}
+.second-row:hover .arrow-three{
+  border-bottom: 48px solid #623ea3;
+}
+
+.third-row:hover .arrow-two{
+  border-bottom: 48px solid #fbbc05;
+}
+
+.third-row:hover .arrow-three{
+  border-bottom: 48px solid #fbbc05;
+}
+
+@keyframes spin3{
+  0% {
+    transform: rotate(270deg);
+  }
+  25% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(450deg);
+  }
+  75% {
+
+    transform: rotate(540deg);
+  }
+  100% {
+  }
+}
+
+@keyframes spin2{
+  0% {
+    transform: rotate(90deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(270deg);
+  }
+  75% {
+
+    transform: rotate(360deg);
+  }
+  100% {
+  }
+}
+
+@keyframes blink{
+  0% {
+    opacity: 0.1;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}

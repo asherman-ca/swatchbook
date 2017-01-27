@@ -1,9 +1,15 @@
 /*margin / padding*/
 
-.sixth h2, p {
+.sixth h2, p, span {
   font-family: 'Press Start 2P', cursive;
   color: white;
 }
+
+.sixth span {
+  font-size: 8px;
+}
+
+
 
 .margin-box {
   width: 50%;
@@ -16,6 +22,7 @@
   flex-direction: column;
   background-color: #623ea3;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
 }
 
 .padders {
@@ -31,7 +38,30 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+  .padders p:hover {
+  animation: blink 3s infinite;
+}
+
+.margin-box p:hover {
+  animation: blink 3s infinite;
+}
+
+
 .padders p {
   position: absolute;
-  top: 33%;
+  top: 35%;
+}
+
+
+
+@keyframes blink{
+  0% {
+    opacity: 0.1;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
 }

@@ -1,4 +1,4 @@
-.arrow-two{
+/*.arrow-two{
  width: 0;
  height: 0;
  margin: 0 -23.5px;
@@ -53,7 +53,7 @@
 
 .second-row,.third-row {
   margin-top: 49px;
-}
+}*/
 
 /*.arrow{
  width: 0;
@@ -64,7 +64,7 @@
  border-bottom: 18px solid #623ea3;
  animation: blink 1s infinite;
 }*/
-
+/*
 .arrow.down{
 	transform: rotate(180deg);
 }
@@ -187,4 +187,4 @@
   100% {
     opacity: 0.1;
   }
-}
+}*/

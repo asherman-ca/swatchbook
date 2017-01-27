@@ -44,6 +44,7 @@
 }
 
 .tool span {
+  font: inherit;
 	color: white;
 	padding-right: 10px;
   opacity: 0;
@@ -54,6 +55,7 @@
 }
 
 .github span {
+  font: inherit;
 	color: white;
 	padding-left: 10px;
   opacity: 0;

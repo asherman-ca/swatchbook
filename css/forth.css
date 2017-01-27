@@ -38,6 +38,7 @@
   color: #55ACEE;
   opacity: .5;
   font-weight: bold;
+  font: inherit;
 }
 
 .rotaters:hover span{
