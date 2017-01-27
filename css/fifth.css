@@ -20,10 +20,18 @@
   top: 120px;
   height: 200px;
   width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #9b418e;
   border-radius: 2px;
   padding: 15px;
@@ -34,6 +42,7 @@
   color: #f6f8fa;
   text-align: center;
   font-size: 25px;
+  -webkit-transition: 1s;
   transition: 1s;
 }
 
@@ -46,9 +55,16 @@
   height: 10%;
   background-color: #9b418e;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 1s;
   transition: 1s;
   cursor: pointer;
 }
