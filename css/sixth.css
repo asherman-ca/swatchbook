@@ -9,6 +9,10 @@
   font-size: 8px;
 }
 
+.relative {
+  position: relative;
+}
+
 .margin-box {
   width: 50%;
   height: 80%;
