@@ -29,7 +29,6 @@
           flex-direction: column;
   background-color: #623ea3;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  /*position: relative;*/
 }
 
 .padders {
@@ -57,8 +56,6 @@
 }
 
 .padders p {
-  /*position: absolute;*/
-  /*top: 35%;*/
   -webkit-transition: 1s;
   transition: 1s;
 }

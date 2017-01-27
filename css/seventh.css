@@ -3,6 +3,7 @@
 .seventh h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .bio-container {
