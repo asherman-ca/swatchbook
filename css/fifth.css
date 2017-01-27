@@ -10,8 +10,6 @@
 
 .modal-container{
   position: absolute;
-  /*width: 420px;
-  height: 460px;*/
   width: 100%;
   height: 100%;
   display: flex;
@@ -20,9 +18,6 @@
 }
 
 .modal{
-  /*position: absolute;*/
-  /*left: 55px;
-  top: 120px;*/
   height: 200px;
   width: 300px;
   display: -webkit-box;
