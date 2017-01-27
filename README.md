@@ -34,23 +34,18 @@ This project will be implemented with the following technologies:
 
 **Day 2**:
 
-- Modal pages
-- Rotation
+- Modal page
+- input
 
 **Day 3**:
 
-- Content before/after
-- Advanced input
+- Rotation
 
 **Day 4**:
 
-- 3D rotation
-
-**Day 5**:
-
-- Modal pages
-- Production Readme
+- Animation
 
 ### Bonus features
 
-- Improved rotation
+- 3D rotation
+- show code modals

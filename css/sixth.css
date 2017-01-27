@@ -1,29 +1,37 @@
-.sixth h2 {
+/*margin / padding*/
+
+.sixth h2, p {
   font-family: 'Press Start 2P', cursive;
   color: white;
 }
 
-.seventh h1 {
-  font-family: 'Roboto', sans-serif;
-  /*color: black;*/
-}
-
-.bio-container {
-  background-color: #bb0000;
-  padding: 15px;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+.margin-box {
+  width: 50%;
+  height: 80%;
+  border-radius: 2px;
+  padding: 10px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  /*height: 80%;*/
-  width: 80%;
+  background-color: #623ea3;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.bio-container p {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  padding: 5px;
-  font-weight: bold;
+.padders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9b418e;
+  padding: 10px;
+  width: 80%;
+  height: 40%;
+  margin: 5%;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.padders p {
+  position: absolute;
+  top: 33%;
 }
