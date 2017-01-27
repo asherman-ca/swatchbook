@@ -12,12 +12,15 @@
   position: absolute;
   width: 420px;
   height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal{
-  position: absolute;
-  left: 55px;
-  top: 120px;
+  /*position: absolute;*/
+  /*left: 55px;
+  top: 120px;*/
   height: 200px;
   width: 300px;
   display: -webkit-box;
