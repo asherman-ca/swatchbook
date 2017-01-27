@@ -33,8 +33,7 @@
 .perspective { perspective: 300px; }
 
 .rotater span{
-  padding-top: 20px;
-  padding-left: 10px;
+  margin-top: 20px;
   color: #55ACEE;
   opacity: .5;
   font-weight: bold;

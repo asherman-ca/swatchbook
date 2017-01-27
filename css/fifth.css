@@ -22,8 +22,8 @@
   width: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: center;
   background-color: #9b418e;
   border-radius: 2px;
   padding: 15px;
@@ -31,17 +31,10 @@
 }
 
 .modal h1{
-  margin: 0px;
-  padding: 5px;
   color: #f6f8fa;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   transition: 1s;
-  cursor: pointer;
-}
-
-.modal h1:hover{
-  padding-left: 0px;
 }
 
 .hidden{
@@ -61,12 +54,12 @@
 }
 
 .button:hover{
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .button p{
   text-align: center;
   color: #f6f8fa;
   font-family: 'Oleo Script', cursive;
-  font-size: 15px;
+  font-size: 20px;
 }
