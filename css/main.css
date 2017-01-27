@@ -12,8 +12,6 @@
   padding: 0;
   color: #f6f8fa;
   font-size: 40px;
-  /*width: 100%;
-  text-align: center;*/
 }
 
 .nav {
@@ -22,7 +20,6 @@
 	align-items: center;
   height: 50%;
 	width: 100%;
-	/*padding-bottom: 30px;*/
 }
 
 .tool {
@@ -86,7 +83,6 @@
 
 .bottom li {
   padding: 5px;
-  /*text-shadow: 1px 1px 1px grey;*/
 }
 
 li.first-li{

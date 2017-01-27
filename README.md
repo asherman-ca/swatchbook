@@ -1,51 +1,34 @@
-## CSS Demos
+# Swatchbook
 
-### Background
+[Swatchbook][swatchbook] is a web application that demonstrates a range of front-end styling techniques and concepts. Inspired by the internet's most popular applications - Swatchbook provides its audience with a short journey through several contemporary design schemes.
 
-This CSS demo will demonstrate around a dozen advanced styling techniques using exclusively HTML and CSS
+Swatchbook is an individual project by Alex Sherman
 
-### Functionality & MVP  
+![Home page][homepage]
 
-- [ ] Page turning
-- [ ] Material ui
-- [ ] Animation
-- [ ] Rotation
-- [ ] Modal
-- [ ] Margin / Padding
-- [ ] Input
-- [ ] A production Readme
+## Features
 
-### Wireframes
+- Contemporary design schemes
+- Material UI design
+- Hypnotic animation
+- Tactile page effects (:hover)
+- Easter eggs
+- Popular site mimicry
 
-This app will consist of a single page that has the UX of reading of book. Pages will be advanced by "turning" a page instead of scrolling down.
+## Project Design
 
-### Architecture and Technologies
+Swatchbook was designed and built in 12 hours.
 
-This project will be implemented with the following technologies:
+A [proposal][proposal] was drafted to help provide an implementation timeline during the development process.
 
-- HTML and SCSS and a few lines of JS for the modal portion
+## Technology
 
-### Implementation Timeline
+Snackchat is a front-end application that is almost entirely built with HTML and CSS
 
-**Day 1**:
+## Future Implementations
 
-- Page turning
-- Margin / Padding
+Snackchat met the requirements for a MVP, but will continue to receive new pages with new features
 
-**Day 2**:
-
-- Modal page
-- input
-
-**Day 3**:
-
-- Rotation
-
-**Day 4**:
-
-- Animation
-
-### Bonus features
-
-- 3D rotation
-- show code modals
+[homepage]: ./pics/homepage.png
+[swatchbook]: https://asherman-ca.github.io/
+[proposal]: ./docs/proposal.md
