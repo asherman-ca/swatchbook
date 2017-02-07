@@ -100,7 +100,6 @@
 }
 
 .intro {
-  /*height: 200px;*/
   width: 325px;
   padding: 15px 0px;
   margin-bottom: 5%;
@@ -151,6 +150,8 @@
   border-radius: 2px;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
+
+/*<i class="fa fa-arrow-right white" aria-hidden="true"></i>*/
 
 .direction h1 {
   padding: 0;
