@@ -10,6 +10,7 @@
 <script type="text/javascript" src="./extras/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="./extras/modal.js"></script>
 <script type="text/javascript" src="./lib/turn.js"></script>
+<script src="https://use.fontawesome.com/e1313b3ebe.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans|Oleo+Script|Roboto|Press+Start+2P" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="./css/main.css"/>
@@ -29,7 +30,18 @@
 	<div class="container">
 		<div class="flipbook">
 
-			<div style="background-color:#3b5998" class="page first">
+			<div style="background-color:#3b5998" class="page first relative">
+				<div class="intro-container" id="intro" onClick=toggleIntro()>
+					<div class="intro">
+						<h1>Welcome to Swatchbook</h1>
+						<p>-A Flipbook of Styling Features-</p>
+					</div>
+					<div class="direction">
+						<p>Click or Drag to Turn Pages</p>
+						<i class="fa fa-arrow-right white" aria-hidden="true"></i>
+					</div>
+				</div>
+
 				<div class="top">
 					<div class="main-title"><h1>Swatchbook</h1></div>
 					<div class="nav">
@@ -44,6 +56,7 @@
 					</div>
 				</div>
 				<div class="bottom">
+
 					<div class="ulcontainer">
 						<ul>
 							<li class="first-li">Index</li>
@@ -56,7 +69,7 @@
 					</div>
 				</div>
 				<div style="background-color:#3b5998" class="footer">
-					<h1>click | drag</h1>
+
 				</div>
 			</div>
 			<div style="background-color:#f2f2f2" class="page second" id="input">

@@ -5,3 +5,7 @@ function toggleModal(){
 function toggleButton(){
   $('#activebutton').toggleClass('animatebutton');
 }
+
+function toggleIntro(){
+  $('#intro').toggleClass('hidden');
+}
