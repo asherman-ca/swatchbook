@@ -2,9 +2,14 @@
 @import url(http://netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css);
 
 .buttonspage h1 {
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: sans-serif;
   font-weight: bold;
   -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.buttonspage span {
+  font-family: sans-serif;
 }
 
 .button-container {
@@ -26,9 +31,10 @@
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   /*border-radius: 5px;*/
   color: #bb0000;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: sans-serif;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,9 +59,10 @@
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   /*border-radius: 5px;*/
   color: #bb0000;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: sans-serif;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,8 +117,9 @@ button:before {
 }
 
 button:before {
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: sans-serif;
+  font-size: 16px;
   font-weight: bold;
 	/*z-index:2;*/
 	color: #bb0000;
@@ -132,8 +140,9 @@ button:after {
 	transform:rotateX(180deg);
   color: #bb0000;
 	content:attr(data-label);
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: sans-serif;
+  font-size: 16px;
   font-weight: bold;
 }
 

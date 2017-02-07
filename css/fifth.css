@@ -81,7 +81,7 @@
       -ms-flex-align: center;
           align-items: center;
   -webkit-transition: 1s;
-  transition: 1s;
+  transition: .5s;
   cursor: pointer;
 }
 
