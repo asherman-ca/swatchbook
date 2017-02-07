@@ -202,13 +202,13 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  font-size: 30px;
   color: #f6f8fa;
   font-weight: bold;
 }
 
 .bottom li {
   padding: 5px 10px;
+  font-size: 25px;
 }
 
 li.first-li{
