@@ -1,13 +1,12 @@
 /*author*/
 
 .seventh h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-family: sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .bio-container {
-  background-color: #bb0000;
+  background-color: #3b5998;
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   display: -webkit-box;
@@ -30,6 +29,7 @@
   line-height: 22px;
   padding: 5px;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   font-size: 16px;
 }

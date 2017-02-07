@@ -188,7 +188,7 @@
 					</div>
 				</div>
 				<div class="bottom relative">
-					<div class="button" onClick=toggleModal()><p>Open Modal</p></div>
+					<div class="modalbutton" onClick=toggleModal()><p>Open Modal</p></div>
 					<div class="modal-container hidden" id="modal" onClick=toggleModal()>
 			      <div class="modal">
 							<h1>- Click to Close</h1>
@@ -245,17 +245,19 @@
 					</div>
 				</div>
 				<div class="bottom">
-					<div class="bio-container">
-						<p>Buttons</p>
-						<p>Buttons</p>
-						<p>Buttons</p>
+
+					<div class="button-container">
+						<button data-label="On Click">On Click</button>
+						<div class="activatebutton" id="activebutton" onClick=toggleButton()>On Activate</div>
+						<div class="hoverbutton">On Hover</div>
 					</div>
+
 				</div>
 				<div style="background-color:#bb0000" class="footer">
 				</div>
 			</div>
 
-			<div style="background-color:#bb0000" class="page seventh">
+			<div style="background-color:#3b5998" class="page seventh">
 				<div class="top">
 					<div class="main-title"><h1>Author</h1></div>
 					<div class="nav">
@@ -276,7 +278,7 @@
 						<p>-Alex Sherman</p>
 					</div>
 				</div>
-				<div style="background-color:#bb0000" class="footer">
+				<div style="background-color:#3b5998" class="footer">
 				</div>
 			</div>
 
@@ -285,7 +287,7 @@
 		</div>
 	</div>
 </div>
-
+<script src="js/index.js"></script>
 <script type="text/javascript">
 	function loadApp() {
 		$('.flipbook').turn({
