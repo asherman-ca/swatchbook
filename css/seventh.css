@@ -1,8 +1,19 @@
 /*author*/
 
+@font-face {
+    font-family: biofont;
+    src: url(IndianaScript_PERSONAL_USE.ttf);
+}
+
 .seventh h1 {
-  font-family: sans-serif;
+  /*font-family: san-serif;*/
+  /*font-family: biofont;*/
+  font-family: 'Yesteryear', cursive;
   -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.seventh span {
+  font-family: 'Yesteryear', cursive;
 }
 
 /*.seventh .footer {
@@ -42,11 +53,13 @@
 }
 
 .inner-bio-container p {
-  line-height: 25px;
+  line-height: 30px;
   color: black;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 18px;
+  /*font-family: sans-serif;*/
+  font-family: 'Yesteryear', cursive;
+  /*font-family: biofont;*/
+  /*font-weight: bold;*/
+  font-size: 25px;
 }
 
 .inner-bio-container p:nth-child(2){
