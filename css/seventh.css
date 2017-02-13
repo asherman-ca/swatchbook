@@ -8,12 +8,14 @@
 .seventh h1 {
   /*font-family: san-serif;*/
   /*font-family: biofont;*/
-  font-family: 'Yesteryear', cursive;
-  -webkit-font-smoothing: subpixel-antialiased;
+  /*font-family: 'Yesteryear', cursive;*/
+  font-family: 'Oleo Script', cursive;
+  /*-webkit-font-smoothing: subpixel-antialiased;*/
 }
 
 .seventh span {
-  font-family: 'Yesteryear', cursive;
+  /*font-family: 'Yesteryear', cursive;*/
+  font-family: 'Oleo Script', cursive;
 }
 
 /*.seventh .footer {
@@ -53,20 +55,20 @@
 }
 
 .inner-bio-container p {
-  line-height: 30px;
+  line-height: 25px;
   color: black;
   /*font-family: sans-serif;*/
-  font-family: 'Yesteryear', cursive;
+  /*font-family: 'Yesteryear', cursive;*/
+  font-family: 'Oleo Script', cursive;
   /*font-family: biofont;*/
   /*font-weight: bold;*/
-  font-size: 25px;
+  font-size: 22.5px;
 }
 
 .inner-bio-container p:nth-child(2){
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
 
 .animation-wrapper {
   position: absolute;
